@@ -31,7 +31,7 @@ https://github.com/winddriver/Delphi-Cross-Socket
 https://github.com/synopse/mORMot2 注意： static目录里的文件需要单独下载
 https://synopse.info/files/mormot2static.7z
 
- **群友开源OneDelphi地址:** 
+ **群友OneDelphi地址:** 
 https://github.com/xenli/OneDelphi
 
  
