@@ -17,9 +17,9 @@ AMD
 
 #### 使用方法:
 
-1.使用这三个文件替换onedelphi 中的同名文件
+1.方法一:使用这三个文件替换onedelphi 中的同名文件
 
-2.或者delphi打开onedelphi项目,右键查看源码,把下面三个文件的路径配置正确即可
+2.方法二: delphi打开onedelphi项目,右键查看源码,把下面三个文件的路径配置正确即可
 
   OneWebSocketServer in 'Cross\OneWebSocketServer.pas',
 
@@ -27,7 +27,7 @@ AMD
 
   OneHttpCtxtResult in 'Cross\OneHttpCtxtResult.pas',
 
-
+3.方法三:把CrossOneServer.dpr和Cross文件档放到OneServer同级
 
 #### 开源组件地址
  **Delphi-Cross-Socket开源地址:** 
