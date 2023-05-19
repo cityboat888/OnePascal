@@ -1,23 +1,34 @@
 # OneDelphi Cross-Socket
+第一版,
+基于onedelphi弃用mormot2通讯库采用Delphi-Cross-Socket通讯库
+使用方法:
+1.使用这三个文件替换onedelphi 中的同名文件
+2.或者delphi打开onedelphi项目,右键查看源码,把下面三个文件的路径配置正确即可
+  OneWebSocketServer in 'Cross\OneWebSocketServer.pas',
+  OneHttpServer in 'Cross\OneHttpServer.pas',
+  OneHttpCtxtResult in 'Cross\OneHttpCtxtResult.pas',
 
 
-
-#### 介绍
+华丽分界线
+########################################################################################################
+ 介绍
 OneDelphi是叫兽(FLM)QQ:378464060基于Delphi IDE开发的三层中间件，
 开源免费，
 支持MVC及传统DataSet框架，
 使用的是Mormot2的HTTP通讯
+唯一下载地址在QQ群,其它都是转发
 
 这个版本是在叫兽源码的基础上(放弃mormot)使用cross作为HTTP通讯
 
 Delphi-Cross-Socket开源地址:
 https://github.com/winddriver/Delphi-Cross-Socket
 
-群友开源github地址
+群友开源OneDelphi地址:
 https://github.com/xenli/OneDelphi
 
-点击链接加入群聊【OneDelphi开源群】：https://jq.qq.com/?_wv=1027&k=AGDV4HQi
+点击链接加入群聊【OneDelphi开源群】：
 QQ群：814696487（原来的群被封了，请加新群）
+https://jq.qq.com/?_wv=1027&k=AGDV4HQi
 
 ------OneDelphi基于Delphi IDE开发的
 
