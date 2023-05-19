@@ -1,6 +1,13 @@
 # OneDelphi Cross-Socket 第一版
 
-基于onedelphi弃用mormot2通讯库采用Delphi-Cross-Socket通讯库
+ **OneDelphi是叫兽(FLM)QQ:378464060基于Delphi IDE开发的三层中间件，
+开源免费，
+支持MVC及传统DataSet框架，
+使用的是Mormot2的HTTP通讯** 
+ **唯一下载地址在QQ群:814696487,其它都是转发** 
+
+
+ **本仓库基于onedelphi弃用mormot2通讯库采用Delphi-Cross-Socket通讯库** 
 
 使用方法:
 
@@ -16,22 +23,21 @@
 
 
 
-华丽分界线
-########################################################################################################
- 介绍
-OneDelphi是叫兽(FLM)QQ:378464060基于Delphi IDE开发的三层中间件，
-开源免费，
-支持MVC及传统DataSet框架，
-使用的是Mormot2的HTTP通讯
-唯一下载地址在QQ群,其它都是转发
 
-这个版本是在叫兽源码的基础上(放弃mormot)使用cross作为HTTP通讯
-
-Delphi-Cross-Socket开源地址:
+ **Delphi-Cross-Socket开源地址:** 
 https://github.com/winddriver/Delphi-Cross-Socket
 
-群友开源OneDelphi地址:
+ **mORMot2 开源地址:** 
+https://github.com/synopse/mORMot2 注意： static目录里的文件需要单独下载
+https://synopse.info/files/mormot2static.7z
+
+ **群友开源OneDelphi地址:** 
 https://github.com/xenli/OneDelphi
+
+ 
+
+华丽分界线
+########################################################################################################
 
 点击链接加入群聊【OneDelphi开源群】：
 QQ群：814696487（原来的群被封了，请加新群）
@@ -48,13 +54,15 @@ https://jq.qq.com/?_wv=1027&k=AGDV4HQi
 环境是基于 D11的，其它低版本，可能系统库 部份不兼容
 
 1.控件包mormot2下载，群文件里面也有直接到群下载也行
+mORMot2 开源地址:
 https://github.com/synopse/mORMot2 注意： static目录里的文件需要单独下载
 https://synopse.info/files/mormot2static.7z
 
+
+2.控件包Cross源码路径加到Lib
 Delphi-Cross-Socket开源地址:
 https://github.com/winddriver/Delphi-Cross-Socket
 
-2.控件包Cross源码路径加到Lib
 ----以上多是基础操作不会的不要问，没时间回答-----
 
 3.打开 OneService.dpr 工程
