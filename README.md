@@ -10,6 +10,10 @@
 
 
  **本仓库基于onedelphi弃用mormot2通讯库采用Delphi-Cross-Socket通讯库** 
+开发环境:
+Windows 11 22H2
+DX11
+AMD
 
 #### 使用方法:
 
@@ -444,11 +448,10 @@ DemoWebFileController
 2.增加DataSet.OpenAsync,DataSet.SaveAsync
 3.增加异步Demo 4.增加Api使用Demo
 5.优化一些功能
+ 
 
-Delphi三层中间件 Dephi中间件 Delphi开源中间件
 
-
-#### 特技
+#### Gitee 特技
 
 1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
 2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
