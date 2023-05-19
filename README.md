@@ -9,8 +9,12 @@ OneDelphi是叫兽(FLM)QQ:378464060基于Delphi IDE开发的三层中间件，
 使用的是Mormot2的HTTP通讯
 
 这个版本是在叫兽源码的基础上(放弃mormot)使用cross作为HTTP通讯
+
 Delphi-Cross-Socket开源地址:
 https://github.com/winddriver/Delphi-Cross-Socket
+
+群友开源github地址
+https://github.com/xenli/OneDelphi
 
 点击链接加入群聊【OneDelphi开源群】：https://jq.qq.com/?_wv=1027&k=AGDV4HQi
 QQ群：814696487（原来的群被封了，请加新群）
