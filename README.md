@@ -1,12 +1,19 @@
-# OneDelphi Cross-Socket
-第一版,
+# OneDelphi Cross-Socket 第一版
+
 基于onedelphi弃用mormot2通讯库采用Delphi-Cross-Socket通讯库
+
 使用方法:
+
 1.使用这三个文件替换onedelphi 中的同名文件
+
 2.或者delphi打开onedelphi项目,右键查看源码,把下面三个文件的路径配置正确即可
+
   OneWebSocketServer in 'Cross\OneWebSocketServer.pas',
+
   OneHttpServer in 'Cross\OneHttpServer.pas',
+
   OneHttpCtxtResult in 'Cross\OneHttpCtxtResult.pas',
+
 
 
 华丽分界线
