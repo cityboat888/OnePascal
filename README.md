@@ -1,6 +1,8 @@
 # OneDelphi Cross-Socket 第一版
 
- **OneDelphi是叫兽(FLM)QQ:378464060基于Delphi IDE开发的三层中间件，
+
+#### OneDelphi 简介
+**OneDelphi是叫兽(FLM)QQ:378464060基于Delphi IDE开发的三层中间件，
 开源免费，
 支持MVC及传统DataSet框架，
 使用的是Mormot2的HTTP通讯** 
@@ -9,7 +11,7 @@
 
  **本仓库基于onedelphi弃用mormot2通讯库采用Delphi-Cross-Socket通讯库** 
 
-使用方法:
+#### 使用方法:
 
 1.使用这三个文件替换onedelphi 中的同名文件
 
@@ -23,7 +25,7 @@
 
 
 
-
+#### 开源组件地址
  **Delphi-Cross-Socket开源地址:** 
 https://github.com/winddriver/Delphi-Cross-Socket
 
@@ -38,7 +40,7 @@ https://github.com/xenli/OneDelphi
 
 华丽分界线
 ########################################################################################################
-
+#### OneDelphi开源QQ群
 点击链接加入群聊【OneDelphi开源群】：
 QQ群：814696487（原来的群被封了，请加新群）
 https://jq.qq.com/?_wv=1027&k=AGDV4HQi
@@ -89,7 +91,7 @@ https://github.com/winddriver/Delphi-Cross-Socket
 7.大文件上传下载-对应Demo->OneClientDemoVirtualFile.dproj
 
 
-更新日志
+#### 更新日志
 *2023-05-17 --祝大家五一快乐,给大家一份大礼包吧
 服务端:
 1.账套增加 TOneZTManage.ExecScript 执行脚本用的,脚本是咋样就是咋样
