@@ -94,6 +94,31 @@ https://github.com/winddriver/Delphi-Cross-Socket
 6.虚拟文件上传下载-对应Demo->OneClientDemoVirtualFile.dproj
 7.大文件上传下载-对应Demo->OneClientDemoVirtualFile.dproj
 
+************2023-06-24***********
+服务端:
+	1.增加服务端报表单元，需要装FR如果没装FR同学，请屏B此单元
+	  OneFastApi目录下 OneFastReportController
+	2.优化文件输出功能和HTML输出功能
+
+客户端:
+	1.增加控件 TOneServerFastReport设计服务端报表交互控件
+	2. 增加Demo-OneClientDemoFastApi.dproj 报表设计单元
+
+
+************2023-06-10***********
+服务端:
+	1.增加调用业务层Controrl前置如果出现错误，自定义返回格式，参考Demo
+	DemoWorkCustErrResult->\httpServer\Controller\Demo
+客户端:
+	1.TOneDataSet增加RefreshSingle刷新单条数据功能
+	2.增加Demo-OneClientDemoRefreshSingle
+************2023-05-27***********
+服务端:
+	1.修正Token进入临界区的一些处理
+	2.修正FastApi相关功能的缺失及时间字段的输出和参数处理
+
+客户端:	
+	1.OneFastApi-Demo增加相关时间格式字段输出，记得补脚本
 
 #### 更新日志
 *2023-05-17 --祝大家五一快乐,给大家一份大礼包吧
