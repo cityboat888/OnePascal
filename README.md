@@ -94,6 +94,10 @@ https://github.com/winddriver/Delphi-Cross-Socket
 6.虚拟文件上传下载-对应Demo->OneClientDemoVirtualFile.dproj
 7.大文件上传下载-对应Demo->OneClientDemoVirtualFile.dproj
 
+
+
+#### 更新日志
+
 ************2023-06-24***********
 服务端:
 	1.增加服务端报表单元，需要装FR如果没装FR同学，请屏B此单元
@@ -120,7 +124,7 @@ https://github.com/winddriver/Delphi-Cross-Socket
 客户端:	
 	1.OneFastApi-Demo增加相关时间格式字段输出，记得补脚本
 
-#### 更新日志
+
 *2023-05-17 --祝大家五一快乐,给大家一份大礼包吧
 服务端:
 1.账套增加 TOneZTManage.ExecScript 执行脚本用的,脚本是咋样就是咋样
