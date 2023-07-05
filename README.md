@@ -97,6 +97,14 @@ https://github.com/winddriver/Delphi-Cross-Socket
 
 
 #### 更新日志
+************2023-07-04***********
+服务端:
+	1.服务端账套管理，增加扩容,当池用尽，无限扩容，用完自动释放连接
+	2.优化账套一些功能
+客户端:
+	1.OneClient控件TOneConnection增加post请求相关等待事件机制
+	2. 等待机制的实现参考Demo-OneClientDemoHttpWaitHint
+
 
 ************2023-06-24***********
 服务端:
