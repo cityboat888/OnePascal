@@ -97,6 +97,12 @@ https://github.com/winddriver/Delphi-Cross-Socket
 
 
 #### 更新日志
+************2023-09-14***********
+服务端:
+	1.服务端增加Demo OneUniDemo\UniFileDownController
+	   一个是DataSet转Excel提供给前端下载,一个是图片下载,两个区别不大
+客户端:
+	1.OneUniapp增加文件下载Demo demoExcelDown.vue
 ************2023-08-15***********
 服务端:
 	1.服务端HTTP保持连接功能 FKeepAliveTimeOut设成0,不保持,HTTP短连接，用完即放，主要是为了高并发更健康
