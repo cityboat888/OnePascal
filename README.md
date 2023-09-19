@@ -97,6 +97,9 @@ https://github.com/winddriver/Delphi-Cross-Socket
 
 
 #### 更新日志
+************2023-09-19***********
+最新版的Delphi-Cross-Socket 测试ok
+
 ************2023-09-14***********
 
 服务端:
