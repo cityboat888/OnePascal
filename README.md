@@ -5,11 +5,11 @@
 **OneDelphi是叫兽(FLM)QQ:378464060基于Delphi IDE开发的三层中间件，
 开源免费，
 支持MVC及传统DataSet框架，
-使用的是Mormot2的HTTP通讯** 
- **唯一下载地址在QQ群:814696487,其它都是转发** 
+使用的是Mormot2的HTTP通讯**  
 
 
  **本仓库基于onedelphi弃用mormot2通讯库采用Delphi-Cross-Socket通讯库** 
+修改人:cityboat  QQ:1650680975
 开发环境:
 Windows 11 22H2
 DX11
