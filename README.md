@@ -7,7 +7,9 @@
 支持MVC及传统DataSet框架，
 使用的是Mormot2的HTTP通讯**  
 Delphi版本:    OneDelphi  包括OneServer/OneClient/ClientDemo/OneFastClient
+
 Lazarus版本:   OneLaz     包括OneServer/OneClient/ClientDemo
+
 HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 
 ===================================================================
@@ -17,6 +19,7 @@ HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 修改人:cityboat  QQ:1650680975
 
 Delphi版本:    OneDelphi已支持Cross
+
 Lazarus版本:   OneLaz已支持Cross
 
 开发环境:
