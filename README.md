@@ -29,7 +29,7 @@ Lazarus版本:   OneLaz已支持Cross(编译通过,即将发布)
 开发环境:Windows 11 22H2/AMD   DX11  laz V3.99  fpc V3.3.1
 
 
-#### 使用方法:
+#### 使用方法(onelaz需手动配置Cross目录和cnVcl_Crypto目录,请自行指定):
 =========================================================
 
 1.方法一:使用这三个文件替换onedelphi/onelaz 中的同名文件
@@ -55,6 +55,10 @@ https://github.com/winddriver/Delphi-Cross-Socket
 https://github.com/synopse/mORMot2 
 注意： static目录里的文件需要单独下载
 https://synopse.info/files/mormot2static.7z
+
+
+ **cnpack开源地址:** 
+https://github.com/cnpack/cnvcl
 
  **群友OneDelphi地址:** 
 https://github.com/xenli/OneDelphi
