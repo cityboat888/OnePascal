@@ -19,3 +19,4 @@ zLib.inc /zlib1.dll/CnPack.inc
 
 5.需配置路径
 ![Alt text](set.jpg)
+![Alt text](2.png)
