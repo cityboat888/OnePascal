@@ -7,6 +7,7 @@
 支持MVC及传统DataSet框架，
 使用的是Mormot2的HTTP通讯**  
 
+===================================================================
 
  **本仓库基于onedelphi弃用mormot2通讯库采用Delphi-Cross-Socket通讯库** 
 
