@@ -1,17 +1,14 @@
 # OnePascal Cross-Socket 第一版
 
 
- **#### OnePascal 简介** 
-===================================================================
+ ** OnePascal 简介**  
+=========================================================
 
-**OnePascal是叫兽(FLM)QQ:378464060开发的三层中间件，
+**OnePascal是叫兽(FLM)QQ:378464060 开发的三层中间件，
 
-基于Delphi/Lazarus/HBuilderX/等IDE
+基于Delphi/Lazarus/HBuilderX/等IDE** 开源免费** 
 
- ** 开源免费** 
-
-支持MVC及传统DataSet框架，
-使用的是Mormot2的HTTP通讯**  
+支持MVC及传统DataSet框架，使用的是Mormot2的HTTP通讯**  
 
 Delphi版本:    OneDelphi  包括OneServer/OneClient/ClientDemo/OneFastClient
 
@@ -19,11 +16,9 @@ Lazarus版本:   OneLaz     包括OneServer/OneClient/ClientDemo
 
 HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 
-===================================================================
+=========================================================
 
- ** **本仓库基于OnePascal弃用mormot2通讯库
-
-采用Delphi-Cross-Socket通讯库** ** 
+ ** 本仓库基于OnePascal弃用mormot2通讯库,采用Delphi-Cross-Socket通讯库** ** 
 
  **修改人:CCC  QQ:1650680975** 
 
@@ -31,17 +26,11 @@ Delphi版本:    OneDelphi已支持Cross
 
 Lazarus版本:   OneLaz已支持Cross(编译通过,即将发布)
 
-开发环境:
-Windows 11 22H2/AMD
-
-DX11
-laz V3.99
-fpc V3.3.1
-
+开发环境:Windows 11 22H2/AMD   DX11  laz V3.99  fpc V3.3.1
 
 
 #### 使用方法:
-===================================================================
+=========================================================
 
 1.方法一:使用这三个文件替换onedelphi/onelaz 中的同名文件
 
@@ -53,10 +42,11 @@ fpc V3.3.1
 
   OneHttpCtxtResult in 'Cross\OneHttpCtxtResult.pas',
 
-3.方法三:把CrossOneServer.dpr和Cross文件档放到OneServer同级
+3.方法三:把CrossOneServer.dpr和Cross文件档夹到OneServer同级
+
 
 #### 开源组件地址
-===================================================================
+=========================================================
 
  **Delphi-Cross-Socket开源地址:** 
 https://github.com/winddriver/Delphi-Cross-Socket
