@@ -1,12 +1,12 @@
 # OnePascal Cross-Socket 第一版
 
 
- ** OnePascal 简介**  
+ ** OnePascal 简介(开源/免费/全源码)**  
 =========================================================
 
 **OnePascal是叫兽(FLM)QQ:378464060 开发的三层中间件，
 
-基于Delphi/Lazarus/HBuilderX/等IDE** 开源免费** 
+基于Delphi/Lazarus/HBuilderX/等IDE
 
 支持MVC及传统DataSet框架，使用的是Mormot2的HTTP通讯**  
 
