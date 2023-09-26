@@ -34,7 +34,7 @@ Lazarus版本:   OneLaz已支持Cross
 
 1.方法一:使用这三个文件替换onedelphi/onelaz 中的同名文件
 
-2.方法二: delphi打开onedelphi项目,右键查看源码,把下面三个文件的路径配置正确即可
+2.方法二: onedelphi/onelaz项目,右键查看源码,把下面三个文件的路径配置正确即可
 
   OneWebSocketServer in 'Cross\OneWebSocketServer.pas',
 
