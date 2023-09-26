@@ -16,5 +16,6 @@
 4.以下文件在CnVcl_Crypto有打包,也可自行到cnpack或相关网站下载
 
 zLib.inc /zlib1.dll/CnPack.inc
+
 5.需配置路径
-<img>set.jpg</img>
+![Alt text](set.jpg)
