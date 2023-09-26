@@ -2,6 +2,7 @@
 
 
  **#### OnePascal 简介** 
+===================================================================
 
 **OnePascal是叫兽(FLM)QQ:378464060开发的三层中间件，
 
@@ -24,7 +25,7 @@ HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 
 采用Delphi-Cross-Socket通讯库** ** 
 
-修改人:cityboat  QQ:1650680975
+ **修改人:CCC  QQ:1650680975** 
 
 Delphi版本:    OneDelphi已支持Cross
 
@@ -55,6 +56,8 @@ fpc V3.3.1
 3.方法三:把CrossOneServer.dpr和Cross文件档放到OneServer同级
 
 #### 开源组件地址
+===================================================================
+
  **Delphi-Cross-Socket开源地址:** 
 https://github.com/winddriver/Delphi-Cross-Socket
 
