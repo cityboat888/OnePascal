@@ -24,7 +24,7 @@ HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 
 Delphi版本:    OneDelphi已支持Cross
 
-Lazarus版本:   OneLaz已支持Cross(编译通过,即将发布)
+Lazarus版本:   OneLaz已支持Cross
 
 开发环境:Windows 11 22H2/AMD   DX11  laz V3.99  fpc V3.3.1
 
