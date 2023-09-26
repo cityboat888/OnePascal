@@ -2,8 +2,13 @@
 
 
  **#### OnePascal 简介** 
-**OnePascal是叫兽(FLM)QQ:378464060基于Delphi/Lazarus/HBuilderX/Vue  IDE开发的三层中间件，
-开源免费，
+
+**OnePascal是叫兽(FLM)QQ:378464060开发的三层中间件，
+
+基于Delphi/Lazarus/HBuilderX/等IDE
+
+ ** 开源免费** 
+
 支持MVC及传统DataSet框架，
 使用的是Mormot2的HTTP通讯**  
 
@@ -16,6 +21,7 @@ HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 ===================================================================
 
  ** **本仓库基于OnePascal弃用mormot2通讯库
+
 采用Delphi-Cross-Socket通讯库** ** 
 
 修改人:cityboat  QQ:1650680975
