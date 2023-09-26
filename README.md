@@ -1,11 +1,12 @@
-# OneDelphi Cross-Socket 第一版
+# OnePascal Cross-Socket 第一版
 
 
-#### OneDelphi 简介
-**OneDelphi是叫兽(FLM)QQ:378464060基于Delphi/Lazarus/HBuilderX/Vue  IDE开发的三层中间件，
+ **#### OnePascal 简介** 
+**OnePascal是叫兽(FLM)QQ:378464060基于Delphi/Lazarus/HBuilderX/Vue  IDE开发的三层中间件，
 开源免费，
 支持MVC及传统DataSet框架，
 使用的是Mormot2的HTTP通讯**  
+
 Delphi版本:    OneDelphi  包括OneServer/OneClient/ClientDemo/OneFastClient
 
 Lazarus版本:   OneLaz     包括OneServer/OneClient/ClientDemo
@@ -14,7 +15,8 @@ HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 
 ===================================================================
 
- **本仓库基于onedelphi弃用mormot2通讯库采用Delphi-Cross-Socket通讯库** 
+ ** **本仓库基于OnePascal弃用mormot2通讯库
+采用Delphi-Cross-Socket通讯库** ** 
 
 修改人:cityboat  QQ:1650680975
 
@@ -24,7 +26,9 @@ Lazarus版本:   OneLaz已支持Cross
 
 开发环境:
 Windows 11 22H2
+
 DX11
+
 AMD
 
 #### 使用方法:
