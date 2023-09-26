@@ -17,4 +17,4 @@
 
 zLib.inc /zlib1.dll/CnPack.inc
 5.需配置路径
-<img>set</img>
+<img>set.jpg</img>
