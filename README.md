@@ -1,6 +1,7 @@
 # OnePascal中间件
 # 双平台:Delphi/Lazarus 
 # 双通讯库:Mormot2/delphi-Cross-Socket
+# 开源/免费/全源码
 
 =========================================================
 
@@ -9,7 +10,7 @@
 
 **OnePascal是叫兽(FLM)QQ:378464060 开发的三层中间件，
 
-基于Delphi/Lazarus/HBuilderX/等IDE,  **开源/免费/全源码** 
+基于Delphi/Lazarus/HBuilderX/等IDE, 
 
 支持MVC及传统DataSet框架，使用的是Mormot2的HTTP通讯**  
 
