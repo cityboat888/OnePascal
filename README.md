@@ -1,4 +1,4 @@
-# OnePascal
+# OnePascal中间件
 # 双平台:Delphi/Lazarus 
 # 双通讯库:Mormot2/delphi-Cross-Socket
 
