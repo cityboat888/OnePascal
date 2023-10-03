@@ -56,6 +56,7 @@ https://www.dcloud.io/hbuilderx.html
 3.方法三:把CrossOneServer.dpr和Cross文件档夹到OneServer同级
 
 4.最新版Cross-Socket需配置路径(delphi和lazarus).
+下载cnVcl_Crypto.rar或去cnpack下载
 
 ![Alt text](delphi-set.jpg)
 
