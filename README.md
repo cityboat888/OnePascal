@@ -44,8 +44,9 @@ https://www.dcloud.io/hbuilderx.html
 
 #### 使用方法
 
-(最新版需手动配置Cross目录和cnVcl_Crypto目录,请自行指定,下载cnVcl_Crypto.rar或去cnpack下载):
 =========================================================
+关于cn*.pas文件:
+(最新版需手动配置Cross目录和cnVcl_Crypto目录,请自行指定或下载cnVcl_Crypto.rar或去cnpack下载)
 
 1.方法一:使用这三个文件替换onedelphi/onelaz 中的同名文件
 
