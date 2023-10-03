@@ -1,5 +1,4 @@
 # OnePascal: 支持最新版的delphi-Cross-Socket
-(2023.10.03)
 
 
  ** 关于OnePascal
@@ -22,7 +21,7 @@ HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 
 =========================================================
 
-弃用Mormot2,采用最新版的Delphi-Cross-Socket
+本仓库弃用Mormot2,采用最新版的Delphi-Cross-Socket(2023.10.03)
 
  **修改人:CCC  ** 
 
