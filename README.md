@@ -1,4 +1,4 @@
-# OnePascal: delphi-Cross-Socket改版
+# OnePascal: 支持最新版的delphi-Cross-Socket(2023.10.03)
 
 
  ** OnePascal 简介(开源/免费/全源码)**  
