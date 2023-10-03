@@ -1,4 +1,4 @@
-# OnePascal: 支持最新版的delphi-Cross-Socket
+# OnePascal: 双平台:Delphi/Lazarus 双通讯库:Mormot2/delphi-Cross-Socket
 
 
  ** 关于OnePascal
