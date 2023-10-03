@@ -1,4 +1,4 @@
-﻿unit OneWebSocketServer;
+unit OneWebSocketServer;
 
 interface
 
@@ -6,6 +6,7 @@ uses
   system.StrUtils, system.Classes, system.SysUtils,
   system.Generics.Collections, system.JSON,
   Net.CrossSocket.Base,
+  Net.CrossWebSocketParser,
   Net.CrossHttpServer,
   Net.CrossWebSocketServer,
   oneILog, OneTokenManage, OneWebSocketConst;
@@ -119,7 +120,7 @@ begin
   Result.TokenUserCode := '';
 end;
 
-procedure TOneWebSocketServer.DoIncomingFrame(const AConnection: ICrossWebSocketConnection;const ARequestType: TWsRequestType; const ARequestData: TBytes);
+procedure TOneWebSocketServer.DoIncomingFrame(const AConnection: ICrossWebSocketConnection;const ARequestType: TWsMessageType; const ARequestData: TBytes);
 var
   //lResultFrame: TWebSocketFrame;
   lJsonObjIn: TJsonObject;
@@ -143,7 +144,7 @@ begin
 
   //
   case ARequestType of
-    wsrtText, wsrtBinary:
+    wtText, wtBinary:
       begin
 //        if Frame.payload = '' then
 //        begin
@@ -370,7 +371,7 @@ begin
     Self.FThreadPoolCount := 1000;
   // 创建HTTP服务
   try
-    Self.FWebSocketServer := TNetCrossWebSocketServer.Create(0, False);
+    Self.FWebSocketServer := TCrossWebSocketServer.Create(0, False);
   FWebSocketServer.Addr := IPv4v6_ALL;
   FWebSocketServer.Port := FPort;
   FWebSocketServer.Compressible := true;
