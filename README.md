@@ -32,6 +32,7 @@ Lazarus版本:   OneLaz已支持最新版delphi-Cross-Socket
 
 Delphi IDE:
 请支持正版开发工具或者[社区免费版](https://www.embarcadero.com/cn/products/delphi/starter)。
+https://www.embarcadero.com/cn/products/delphi/starter
 
 Lazarus IDE:
 https://www.lazarus-ide.org/
