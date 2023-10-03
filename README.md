@@ -20,7 +20,7 @@ HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 
  ** 本仓库基于OnePascal弃用mormot2通讯库,采用Delphi-Cross-Socket通讯库** ** 
 
- **修改人:CCC  QQ:1650680975** 
+ **修改人:CCC  ** 
 
 Delphi版本:    OneDelphi已支持Cross
 
