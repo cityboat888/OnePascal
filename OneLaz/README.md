@@ -17,6 +17,6 @@
 
 zLib.inc /zlib1.dll/CnPack.inc
 
-5.需配置路径
-![Alt text](set.jpg)
+5.需配置路径(见主目录:lazarus-set.jpg)
+![Alt text](../2.png)
 ![Alt text](2.png)
