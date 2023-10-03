@@ -78,7 +78,7 @@ https://synopse.info/files/mormot2static.7z
  **cnpack开源地址:** 
 https://github.com/cnpack/cnvcl
 
- **群友OneDelphi地址:** 
+ **群友维护OneDelphi地址:** 
 https://github.com/xenli/OneDelphi
 
  
