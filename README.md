@@ -18,7 +18,7 @@ HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 
 =========================================================
 
- ** 本仓库基于OnePascal弃用mormot2通讯库,采用最新版的Delphi-Cross-Socket通讯库(2023.10.03) ** ** 
+#### 本仓库基于OnePascal弃用mormot2通讯库,采用最新版的Delphi-Cross-Socket通讯库(2023.10.03) 
 
  **修改人:CCC  ** 
 
