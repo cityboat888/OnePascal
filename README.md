@@ -30,12 +30,15 @@ Lazarus版本:   OneLaz已支持最新版delphi-Cross-Socket
 
 ####开发工具简介：
 
-Delphi IDE:
+[Delphi IDE:](https://www.embarcadero.com/cn/products/delphi/starter)
 请支持正版开发工具或者[社区免费版](https://www.embarcadero.com/cn/products/delphi/starter)。
 https://www.embarcadero.com/cn/products/delphi/starter
 
-Lazarus IDE:
+[Lazarus IDE:](https://www.lazarus-ide.org/)
 https://www.lazarus-ide.org/
+
+[Hbuilderx IDE:](https://www.dcloud.io/hbuilderx.html)
+https://www.dcloud.io/hbuilderx.html
 
 #### 使用方法(onelaz需手动配置Cross目录和cnVcl_Crypto目录,请自行指定):
 =========================================================
