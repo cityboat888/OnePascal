@@ -17,6 +17,8 @@
 
 支持MVC及传统DataSet框架，使用的是Mormot2的HTTP通讯**  
 
+[OneDelphi简介:](http://pascal.callbaba.cn/)
+
 Delphi版本:    OneDelphi  包括OneServer/OneClient/ClientDemo/OneFastClient
 
 Lazarus版本:   OneLaz     包括OneServer/OneClient/ClientDemo
@@ -30,13 +32,18 @@ HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 
 本仓库弃用Mormot2,采用最新版的Delphi-Cross-Socket(2023.10.03)
 
- **修改人:CCC  ** 
+ ** 修改人:CCC** 
 
 Delphi版本:    OneDelphi已支持最新版delphi-Cross-Socket
 
 Lazarus版本:   OneLaz已支持最新版delphi-Cross-Socket
 
-开发环境:Windows 11 22H2/AMD   DX11  laz V3.99  fpc V3.3.1
+
+#### 关于开发环境
+
+=========================================================
+Windows 11 x64/AMD   DX11  
+laz V3.99  fpc V3.3.1
 
 
 #### 关于开发工具
@@ -56,9 +63,10 @@ https://www.dcloud.io/hbuilderx.html
 #### 关于使用方法
 
 =========================================================
-
-cn*.pas文件来源于cnpack,请下载cnVcl_Crypto.rar或自行到cnpack去下载
-(最新版需手动配置Cross目录及cnpack相关文件目录)
+ **
+最新版cross socket中cn*.pas文件来源于cnpack,
+请下载cnVcl_Crypto.rar或自行到cnpack去下载
+(需手动配置Cross目录及cnpack相关文件目录)** 
 
 1.方法一:使用这三个文件替换onedelphi/onelaz 中的同名文件
 
@@ -72,8 +80,7 @@ cn*.pas文件来源于cnpack,请下载cnVcl_Crypto.rar或自行到cnpack去下�
 
 3.方法三:把CrossOneServer.dpr和Cross文件档夹到OneServer同级
 
-4.最新版Cross-Socket需配置路径(delphi和lazarus).
-下载cnVcl_Crypto.rar或去cnpack下载
+4.最新版Cross-Socket需配置cross及相关文件路径(delphi和lazarus).
 
 ![Alt text](delphi-set.jpg)
 
