@@ -19,7 +19,8 @@ HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 
 =========================================================
 
-#### 本仓库基于OnePascal弃用mormot2通讯库,采用最新版的Delphi-Cross-Socket通讯库(2023.10.03) 
+#### 本仓库通讯库采用最新版的Delphi-Cross-Socket
+(2023.10.03) 
 
  **修改人:CCC  ** 
 
@@ -41,7 +42,9 @@ https://www.lazarus-ide.org/
 [Hbuilderx IDE:](https://www.dcloud.io/hbuilderx.html)
 https://www.dcloud.io/hbuilderx.html
 
-#### 使用方法(最新版需手动配置Cross目录和cnVcl_Crypto目录,请自行指定,下载cnVcl_Crypto.rar或去cnpack下载):
+#### 使用方法
+
+(最新版需手动配置Cross目录和cnVcl_Crypto目录,请自行指定,下载cnVcl_Crypto.rar或去cnpack下载):
 =========================================================
 
 1.方法一:使用这三个文件替换onedelphi/onelaz 中的同名文件
