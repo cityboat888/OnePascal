@@ -46,7 +46,9 @@ Lazarus版本:   OneLaz已支持最新版delphi-Cross-Socket
 
 4.最新版Cross-Socket需配置路径(delphi和lazarus).
 
-![Alt text](set.jpg)
+![Alt text](delphi-set.jpg)
+
+![Alt text](lazarus-set.jpg)
 
 #### 开源组件地址
 =========================================================
