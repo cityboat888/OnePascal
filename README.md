@@ -1,4 +1,4 @@
-# OnePascal: Cross-Socket改版
+# OnePascal: delphi-Cross-Socket改版
 
 
  ** OnePascal 简介(开源/免费/全源码)**  
@@ -22,9 +22,9 @@ HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 
  **修改人:CCC  ** 
 
-Delphi版本:    OneDelphi已支持Cross
+Delphi版本:    OneDelphi已支持最新版delphi-Cross-Socket
 
-Lazarus版本:   OneLaz已支持Cross
+Lazarus版本:   OneLaz已支持最新版delphi-Cross-Socket
 
 开发环境:Windows 11 22H2/AMD   DX11  laz V3.99  fpc V3.3.1
 
@@ -44,6 +44,8 @@ Lazarus版本:   OneLaz已支持Cross
 
 3.方法三:把CrossOneServer.dpr和Cross文件档夹到OneServer同级
 
+4.最新版Cross-Socket需配置路径
+![Alt text](/onelaz/set.jpg)
 
 #### 开源组件地址
 =========================================================
