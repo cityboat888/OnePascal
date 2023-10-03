@@ -28,6 +28,9 @@ Lazarus版本:   OneLaz已支持最新版delphi-Cross-Socket
 
 开发环境:Windows 11 22H2/AMD   DX11  laz V3.99  fpc V3.3.1
 
+####开发工具简介：
+Delphi IDE:请支持正版开发工具或者[社区免费版](https://www.embarcadero.com/cn/products/delphi/starter)。
+Lazarus IDE:https://www.lazarus-ide.org/
 
 #### 使用方法(onelaz需手动配置Cross目录和cnVcl_Crypto目录,请自行指定):
 =========================================================
