@@ -17,7 +17,7 @@
 
 支持MVC及传统DataSet框架，使用的是Mormot2的HTTP通讯**  
 
-[OneDelphi简介:](http://pascal.callbaba.cn/)
+OneDelphi简介:
 
 Delphi版本:    OneDelphi  包括OneServer/OneClient/ClientDemo/OneFastClient
 
