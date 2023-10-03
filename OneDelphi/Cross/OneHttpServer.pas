@@ -1,4 +1,4 @@
-﻿unit OneHttpServer;
+unit OneHttpServer;
 
 interface
 
@@ -384,33 +384,6 @@ begin
       //end;
     end;
   end;
-end;
-
-constructor TOneHttpServer.Create(QLog: IOneLog);
-begin
-  inherited Create;
-  self.FLog := QLog;
-  self.FStarted := False;
-  self.FStopRequest := False;
-  self.FPort := 9090;
-  self.FThreadPoolCount := 32;
-  self.FKeepAliveTimeOut := 30000;
-  self.FHttpQueueLength := 1000;
-  self.FHttpServer := nil;
-  self.FHttpsServer := nil;
-end;
-
-destructor TOneHttpServer.Destroy;
-begin
-  if FHttpServer <> nil then
-  begin
-    FHttpServer.CloseAll;
-  end;
-  if FHttpsServer <> nil then
-  begin
-    FHttpsServer.CloseAll;
-  end;
-  inherited Destroy;
 end;
 
 procedure TOneHttpServer.OnConnected(const Sender: TObject; const AConnection: ICrossConnection);
