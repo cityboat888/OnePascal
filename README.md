@@ -32,7 +32,7 @@ HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 
 本仓库弃用Mormot2,采用最新版的Delphi-Cross-Socket(2023.10.03)
 
- ** 修改人:CCC** 
+ ** 修改人:CCC  QQ:1650680975 ** 
 
 Delphi版本:    OneDelphi已支持最新版delphi-Cross-Socket
 
