@@ -79,7 +79,7 @@ https://www.dcloud.io/hbuilderx.html
 
   OneHttpCtxtResult in 'Cross\OneHttpCtxtResult.pas',
 
-3.方法三:把CrossOneServer.dpr和Cross文件档夹到OneServer同级
+3.方法三:把CrossOneServer.dpr和Cross文件夹复制到OneServer同级
 
 4.最新版Cross-Socket需配置cross及相关文件路径(delphi和lazarus).
 
