@@ -8,8 +8,10 @@
 
 =========================================================
 
- ** 关于github/gitee(同步更新)
+ ** 关于github/gitee同步更新地址:
+
 https://github.com/cityboat888
+
 https://gitee.com/cityboat888
 
  ** 关于OnePascal
