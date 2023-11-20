@@ -31,7 +31,6 @@ Lazarus版本:   OneLaz     包括OneServer/OneClient/ClientDemo
 
 HBuilderX版本: OneUniAPP  对接OneDelphi/OneLaz服务端中间件
 
-
 #### 关于通讯库
 
 =========================================================
@@ -63,6 +62,8 @@ https://www.embarcadero.com/cn/products/delphi/starter
 
 [Lazarus IDE:](https://www.lazarus-ide.org/)
 https://www.lazarus-ide.org/
+IDE能运行于Windows, macOS, Linux, BSD, Raspberry等系统,
+能跨平台编译android/linux/wince/mac/信创等操作系统(包括龙芯等)
 
 [Hbuilderx IDE:](https://www.dcloud.io/hbuilderx.html)
 https://www.dcloud.io/hbuilderx.html
