@@ -64,6 +64,7 @@ https://www.embarcadero.com/cn/products/delphi/starter
 https://www.lazarus-ide.org/
 
 IDE能运行于Windows, macOS, Linux, BSD, Raspberry等系统,
+
 能跨平台编译android/linux/wince/mac/信创等操作系统(包括龙芯等)
 
 [Hbuilderx IDE:](https://www.dcloud.io/hbuilderx.html)
