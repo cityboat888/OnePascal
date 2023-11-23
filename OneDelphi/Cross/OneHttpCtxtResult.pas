@@ -5,7 +5,7 @@ interface
 uses
   System.SysUtils, System.Classes, Web.HTTPApp, System.Generics.Collections,
   System.StrUtils, System.JSON, System.JSON.Serializers, Rest.JSON,
-  Rest.JsonReflect,System.Contnrs,System.Rtti,System.NetEncoding,
+  Rest.JsonReflect,System.Contnrs,System.Rtti,System.NetEncoding,system.ZLib,
   Neon.Core.Persistence,
   Neon.Core.Persistence.JSON,
   Neon.Core.Serializers.DB,
