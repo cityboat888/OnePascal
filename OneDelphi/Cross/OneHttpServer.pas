@@ -530,6 +530,7 @@ begin
   Result.ResponCustHeaderList := '';
   Result.RequestContentTypeCharset := 'UTF-8';
   Result.RequestAcceptCharset := 'UTF-8';
+  Result.EncodingZip:=Ctxt.ContentEncoding='zlib';
   // 解析
   Result.Method := string(Ctxt.Method).ToUpper;
   Result.RequestContentType := Ctxt.ContentType;
