@@ -40,7 +40,29 @@ OneDelphi开源QQ群
 目前传统客户端基本已完成; 1.数据打开保存,执行DML执行存储过程-对应Demo->OneClientDemo.dproj 2.客户端事务自由控制-对应Demo->OneCleintDemoCustTran.dproj 3.多个数据批量打开，批量保存-对应Demo->OneCleintDemoDatas.dproj 4.客户端post,get请求-对应Demo->OneCleintDemoPostGet.dproj 5.异步打开数据及保存-对应Demo->OneCleintDemoAsync.dproj 6.虚拟文件上传下载-对应Demo->OneClientDemoVirtualFile.dproj 7.大文件上传下载-对应Demo->OneClientDemoVirtualFile.dproj
 
 更新日志
-*2023-09-19 最新版的Delphi-Cross-Socket 测试ok
+************2023-12-08***********
+服务端:
+	1.增加10分钟未交互的连接,主动断掉，重连。。。
+                主要有的驱动或数据库配置你保活没用。。。久的连接会未明其妙挂了。倒不如断开重连下，太久没交互的连接
+	主要更改以下方法，增加两个保活机制
+                function TOneZTPool.LockZTItem(var QErrMsg: string): TOneZTItem;  
+
+               if SecondsBetween(Now, lZTItem.FLastTime) >= 600 then
+               begin
+                  lZTItem.ADConnection.Close(True);
+                  lZTItem.ADConnection.Open;
+               end;         
+
+                同上面也是为了保证数据库是连接情况下，才使用账套
+                if (not lZTItem.ADConnection.Connected) then
+               begin
+                 //判断状态如果未连接重新连接下
+                 lZTItem.ADConnection.Open;
+                end;  
+				
+************2023-09-19***********
+ 最新版的Delphi-Cross-Socket 测试ok
+
 
 *2023-09-14
 
