@@ -40,6 +40,16 @@ OneDelphi开源QQ群
 目前传统客户端基本已完成; 1.数据打开保存,执行DML执行存储过程-对应Demo->OneClientDemo.dproj 2.客户端事务自由控制-对应Demo->OneCleintDemoCustTran.dproj 3.多个数据批量打开，批量保存-对应Demo->OneCleintDemoDatas.dproj 4.客户端post,get请求-对应Demo->OneCleintDemoPostGet.dproj 5.异步打开数据及保存-对应Demo->OneCleintDemoAsync.dproj 6.虚拟文件上传下载-对应Demo->OneClientDemoVirtualFile.dproj 7.大文件上传下载-对应Demo->OneClientDemoVirtualFile.dproj
 
 更新日志
+************2023-12-15***********
+服务端:
+	1.增加自增ID数据集保存时,返回正确的获取自增ID后的数据集
+
+客户端:
+	2.增加自增ID数据集Demo  OneClientDemo 
+	其数据集 Data.DataInfo.IsReturnData := true 即可原数据取回
+	当设置 DataInfo.IsReturnData := true 是整个数据集提交，整个返回加载
+	不适用于大数据。。。增大传输压力，个人建议主键还是不要用自增,OneClientDataset提供了方便的获取整型ID的方法
+	请认真看各个DEMO
 ************2023-12-08***********
 服务端:
 	1.增加10分钟未交互的连接,主动断掉，重连。。。
