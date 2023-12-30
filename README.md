@@ -2,7 +2,7 @@
 
   **双平台:Delphi/Lazarus** 
 
-  **双通讯库:Mormot2/delphi-Cross-Socket** 
+  **三通讯库:Mormot2/RTC/delphi-Cross-Socket** 
 
   **开源 / 免费 / 全源码** 
 
