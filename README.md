@@ -108,6 +108,8 @@ https://github.com/synopse/mORMot2
 注意： static目录里的文件需要单独下载
 https://synopse.info/files/mormot2static.7z
 
+ **RTC 开源地址:**
+https://github.com/teppicom/RealThinClient-SDK/
 
  **cnpack开源地址:** 
 https://github.com/cnpack/cnvcl
