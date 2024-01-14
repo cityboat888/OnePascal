@@ -40,6 +40,36 @@ OneDelphi开源QQ群
 目前传统客户端基本已完成; 1.数据打开保存,执行DML执行存储过程-对应Demo->OneClientDemo.dproj 2.客户端事务自由控制-对应Demo->OneCleintDemoCustTran.dproj 3.多个数据批量打开，批量保存-对应Demo->OneCleintDemoDatas.dproj 4.客户端post,get请求-对应Demo->OneCleintDemoPostGet.dproj 5.异步打开数据及保存-对应Demo->OneCleintDemoAsync.dproj 6.虚拟文件上传下载-对应Demo->OneClientDemoVirtualFile.dproj 7.大文件上传下载-对应Demo->OneClientDemoVirtualFile.dproj
 
 更新日志
+*****************2024-01-13*****************
+
+服务端增加web目录功能:
+	1.OneWeb目录,Exe运行程序下同级目录  OnePlatform\OneWeb 承担web站点
+                   我的Exe路径 D:\devTool\delphi\project\OneDelphi\OneServer\Win64\Debug
+	   访问路径示例如下 http://127.0.0.1:9090/oneweb/index.html 
+                   即访问目录 D:\devTool\delphi\project\OneDelphi\OneServer\Win64\Debug\OnePlatform\OneWeb\index.html 网站
+	   访问路径示例如下 http://127.0.0.1:9090/oneweb/myjxc/index.html 
+                   即访问目录 D:\devTool\delphi\project\OneDelphi\OneServer\Win64\Debug\OnePlatform\OneWeb\myjxc\index.html 网站
+                 
+	 2.HTTP访问路径  http://127.0.0.1:9090/onewebv/虚拟目录代码/index.html 
+                   访问的是虚拟目录的站点,其它功能是oneWeb类似，oneWeb只是固定目录,onewebv 可以访问自定义目录
+                
+                 3. OneFile 目录,Exe运行程序下同级目录  OnePlatform\OneFile 
+                     http://127.0.0.1:9090/OneFile/my.txt 
+                     以文件流形式输出文件
+
+	2.Mormot2 BUG修正,请自行去修正此单元
+                  单元  mormot.net.http.pas 
+                  方法: function THttpRequestContext.ContentFromFile有Bug
+	  Bug原因,文件为空时输出的是false,找不到文件，是不对的。
+                  修正如下:
+                  ContentLength := FileSize(FileName);
+	  //在此句加这个判断即可
+  	  if ContentLength=0 then
+	 begin
+    	    result := true;
+    	    exit;
+ 	 end;
+	 
 ************2023-12-15***********
 服务端:
 	1.增加自增ID数据集保存时,返回正确的获取自增ID后的数据集
