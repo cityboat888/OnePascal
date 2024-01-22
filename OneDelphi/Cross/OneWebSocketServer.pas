@@ -73,7 +73,7 @@ type
     procedure OnOpen(const AConnection: ICrossWebSocketConnection);
     procedure OnClose(const AConnection: ICrossWebSocketConnection);
     procedure DoIncomingFrame(const AConnection: ICrossWebSocketConnection;
-                        const ARequestType: TWsRequestType; const ARequestData: TBytes);
+                        const ARequestType: TWsMessageType; const ARequestData: TBytes);
 
 
   published

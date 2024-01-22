@@ -386,6 +386,8 @@ begin
   end;
 end;
 
+
+
 procedure TOneHttpServer.OnConnected(const Sender: TObject; const AConnection: ICrossConnection);
 begin
  // AtomicIncrement(FServerStatus.OnLineCount);
