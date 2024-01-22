@@ -5,7 +5,8 @@ interface
 uses
   System.SysUtils, System.Classes, Web.HTTPApp, System.Generics.Collections,
   System.StrUtils, System.JSON, System.JSON.Serializers, Rest.JSON,
-  Rest.JsonReflect,System.Contnrs,System.Rtti,System.NetEncoding,system.ZLib,
+  Rest.JsonReflect,System.Contnrs,System.Rtti,System.NetEncoding,
+  system.ZLib,
   Neon.Core.Persistence,
   Neon.Core.Persistence.JSON,
   Neon.Core.Serializers.DB,
@@ -147,6 +148,7 @@ type
     property Method: String read FMethod write FMethod;
     property ControllerMethodName: String read FControllerMethodName write FControllerMethodName;
     property RequestAcceptCharset: string read FRequestAcceptCharset write FRequestAcceptCharset;
+    property EncodingZip: boolean read FEncodingZip write FEncodingZip;
 
     property Response:ICrossHttpResponse  read FResponse write FResponse;
     property Request:ICrossHttpRequest  read FRequest write FRequest;
@@ -603,16 +605,26 @@ var
   function StreamToStringDeCode(aStream: TStream): string;
   var
     vDataBytes:TBytes;
+    lZlibBytes: TBytes;
   begin
     Result := '';
     aStream.Position := 0;
     SetLength(vDataBytes,aStream.Size);
     try
       aStream.Read(vDataBytes[0],aStream.Size);
-      Result := TNetEncoding.Base64.EncodeBytesToString(vDataBytes);
+      if EncodingZip then
+      begin
+        ZDecompress(vDataBytes,lZlibBytes);
+        Result := TNetEncoding.Base64.EncodeBytesToString(lZlibBytes);
+      end
+      else
+        Result := TNetEncoding.Base64.EncodeBytesToString(vDataBytes);
+      //Result:=TEncoding.UTF8.GetString(vDataBytes);;
+
       Result := TNetEncoding.Base64.Decode(Result);
     finally
       vDataBytes := nil;
+      lZlibBytes:=nil;
     end;
   end;
 begin
