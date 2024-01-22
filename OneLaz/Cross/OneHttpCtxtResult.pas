@@ -6,7 +6,7 @@ interface
 
 uses
   SysUtils, Classes, Generics.Collections, StrUtils, Contnrs, httpprotocol,
-  System.NetEncoding,
+  System.NetEncoding,system.ZLib,
   Net.CrossHttpParams,Net.CrossHttpServer,
   OneHttpControllerRtti, fpjson,jsonparser, Rtti, OneHttpConst, OneControllerResult,
   OneSerialization,DB,OneDataJson;
@@ -142,6 +142,7 @@ type
     property Method: String read FMethod write FMethod;
     property ControllerMethodName: String read FControllerMethodName write FControllerMethodName;
     property RequestAcceptCharset: string read FRequestAcceptCharset write FRequestAcceptCharset;
+    property EncodingZip: boolean read FEncodingZip write FEncodingZip;
 
     property Response:ICrossHttpResponse  read FResponse write FResponse;
     property Request:ICrossHttpRequest  read FRequest write FRequest;
@@ -602,12 +603,19 @@ var
   function StreamToStringDeCode(aStream: TStream): string;
   var
     vDataBytes:TBytes;
+    lZlibBytes: TBytes;
   begin
     Result := '';
     aStream.Position := 0;
     SetLength(vDataBytes,aStream.Size);
     try
       aStream.Read(vDataBytes[0],aStream.Size);
+      if EncodingZip then
+      begin
+        ZDecompress(vDataBytes,lZlibBytes);
+        Result := TNetEncoding.Base64.EncodeBytesToString(lZlibBytes);
+      end
+      else
       Result := TNetEncoding.Base64.EncodeBytesToString(vDataBytes);
       Result := TNetEncoding.Base64.Decode(Result);
     finally
