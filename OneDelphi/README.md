@@ -40,6 +40,9 @@ OneDelphi开源QQ群
 目前传统客户端基本已完成; 1.数据打开保存,执行DML执行存储过程-对应Demo->OneClientDemo.dproj 2.客户端事务自由控制-对应Demo->OneCleintDemoCustTran.dproj 3.多个数据批量打开，批量保存-对应Demo->OneCleintDemoDatas.dproj 4.客户端post,get请求-对应Demo->OneCleintDemoPostGet.dproj 5.异步打开数据及保存-对应Demo->OneCleintDemoAsync.dproj 6.虚拟文件上传下载-对应Demo->OneClientDemoVirtualFile.dproj 7.大文件上传下载-对应Demo->OneClientDemoVirtualFile.dproj
 
 更新日志
+*****************2024-01-28*****************
+主要进行控件升级mormot2升级,neo控件升级
+
 *****************2024-01-13*****************
 
 服务端增加web目录功能:
