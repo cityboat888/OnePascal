@@ -41,6 +41,38 @@ OneDelphi开源QQ群
 
 更新日志
 
+
+*****************2024-04-04*****************
+服务端: 增加 TCustomAttribute 注解相关功能,慢慢升级吧。大多人理解不了这些东东，
+	Attribute功能玩法有很多，高版本D才支持，这也是我一直不加上去的原因。。。
+                思考在三后，还是加了，慢慢增加一些Attribute高级玩法，
+	升级这些多很快，我也就好了半小时，增加此功能。。OnePascel本身就易于扩展自已想要的东东
+           1.参考服务端Demo  DemoAttributeController
+  如下：	
+   type
+  TDemoAttributeController = class(TOneControllerBase)
+  public
+     //取参数取的是ULR ?后面的参数,且只支持Get访问,不需要以OneGet开头
+    [TOneHttpGet]
+    function GetTest(name: string;sex:string): string;
+
+     //取参数取的是ULR路径的参数 /url路径/myname/mysex;,不需要以OnePath开头
+    [TOneHttpPath]
+    function GetPath(name: string;sex:string): string;
+
+    //取参数取的是post Data数据且为JSON格式,且只支持Post访问,不需要以OnePost开头
+    [TOneHttpPost]
+    function PostTest(name: string;sex:string): string;
+
+     //取参数取的是post Data数据,且只支持Post访问
+     //data数据是表单格式 key1=value1&key2=value2
+     //数据之间是用&关联
+    [TOneHttpForm]
+    function PostForm(name: string;sex:string): string;
+
+
+  end;
+  
 *****************2024-03-30*****************
 服务端:由httpanyServer改成httpserver
            momrmot2的httpanyserver在某此场景环境不极其不稳定
