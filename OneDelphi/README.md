@@ -41,7 +41,17 @@ OneDelphi开源QQ群
 
 更新日志
 
+*****************2024-04-05*****************
+服务端: 增加 TOneRouter=> TCustomAttribute 注解
+            增加匿名路由,如下Demo DemoAttributeController
+              //增加匿名路由,访问地址如下
+             //http://127.0.0.1:9090/DemoAttribute/mytest
+             //而不是 http://127.0.0.1:9090/DemoAttribute/CustRouter
+    [TOneRouter('/mytest')]
+    [TOneHttpPost]
+    function CustRouter(name: string; sex: string): string;
 
+	
 *****************2024-04-04*****************
 服务端: 增加 TCustomAttribute 注解相关功能,慢慢升级吧。大多人理解不了这些东东，
 	Attribute功能玩法有很多，高版本D才支持，这也是我一直不加上去的原因。。。
