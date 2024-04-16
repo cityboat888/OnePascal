@@ -41,6 +41,40 @@ OneDelphi开源QQ群
 
 更新日志
 
+*****************2024-04-10*****************
+服务端: 增加 TOneAuthor=> TCustomAttribute 注解,需授权验证才可以访问API接口
+   增加Demo TDemoAuthorController 使用例子
+   TDemoAuthorController = class(TOneControllerBase)
+  public
+    // 建议使用方式
+    // 跟据ulr?后面的参数获取相关验证信息
+    [TOneAuthor(TOneAuthorGetMode.token)]
+    [TOneHttpGet]
+    function GetTestA(name: string; sex: string): string;
+
+    // 建议使用方式
+    // 跟据关部 Authorization获取验证信息
+    [TOneAuthor(TOneAuthorGetMode.header)]
+    [TOneHttpGet]
+    function GetTestB(name: string; sex: string): string;
+
+    // 底程有提供相关方法,线程安全直接调用
+    // 但个人建议还是用注解方式
+    [TOneHttpGet]
+    function GetTestC(name: string; sex: string): string;
+  end;
+        
+
+*****************2024-04-05*****************
+服务端: 增加 TOneRouter=> TCustomAttribute 注解
+            增加匿名路由,如下Demo DemoAttributeController
+              //增加匿名路由,访问地址如下
+             //http://127.0.0.1:9090/DemoAttribute/mytest
+             //而不是 http://127.0.0.1:9090/DemoAttribute/CustRouter
+    [TOneRouter('/mytest')]
+    [TOneHttpPost]
+    function CustRouter(name: string; sex: string): string;
+	
 *****************2024-04-05*****************
 服务端: 增加 TOneRouter=> TCustomAttribute 注解
             增加匿名路由,如下Demo DemoAttributeController
