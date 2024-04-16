@@ -42,6 +42,7 @@ OneDelphi开源QQ群
 更新日志
 
 *****************2024-04-10*****************
+
 服务端: 增加 TOneAuthor=> TCustomAttribute 注解,需授权验证才可以访问API接口
    增加Demo TDemoAuthorController 使用例子
    TDemoAuthorController = class(TOneControllerBase)
@@ -64,8 +65,9 @@ OneDelphi开源QQ群
     function GetTestC(name: string; sex: string): string;
   end;
         
-
+		
 *****************2024-04-05*****************
+
 服务端: 增加 TOneRouter=> TCustomAttribute 注解
             增加匿名路由,如下Demo DemoAttributeController
               //增加匿名路由,访问地址如下
@@ -75,18 +77,9 @@ OneDelphi开源QQ群
     [TOneHttpPost]
     function CustRouter(name: string; sex: string): string;
 	
-*****************2024-04-05*****************
-服务端: 增加 TOneRouter=> TCustomAttribute 注解
-            增加匿名路由,如下Demo DemoAttributeController
-              //增加匿名路由,访问地址如下
-             //http://127.0.0.1:9090/DemoAttribute/mytest
-             //而不是 http://127.0.0.1:9090/DemoAttribute/CustRouter
-    [TOneRouter('/mytest')]
-    [TOneHttpPost]
-    function CustRouter(name: string; sex: string): string;
-
 	
 *****************2024-04-04*****************
+
 服务端: 增加 TCustomAttribute 注解相关功能,慢慢升级吧。大多人理解不了这些东东，
 	Attribute功能玩法有很多，高版本D才支持，这也是我一直不加上去的原因。。。
                 思考在三后，还是加了，慢慢增加一些Attribute高级玩法，
@@ -118,11 +111,13 @@ OneDelphi开源QQ群
   end;
   
 *****************2024-03-30*****************
+
 服务端:由httpanyServer改成httpserver
            momrmot2的httpanyserver在某此场景环境不极其不稳定
 
 		   
 *****************2024-01-28*****************
+
 主要进行控件升级mormot2升级,neo控件升级
 
 *****************2024-01-13*****************
@@ -156,6 +151,7 @@ OneDelphi开源QQ群
  	 end;
 	 
 ************2023-12-15***********
+
 服务端:
 	1.增加自增ID数据集保存时,返回正确的获取自增ID后的数据集
 
@@ -186,6 +182,7 @@ OneDelphi开源QQ群
                 end;  
 				
 ************2023-09-19***********
+
  最新版的Delphi-Cross-Socket 测试ok
 
 
@@ -205,29 +202,49 @@ OneDelphi开源QQ群
 
 服务端: 1.服务端账套管理，增加扩容,当池用尽，无限扩容，用完自动释放连接 2.优化账套一些功能 客户端: 1.OneClient控件TOneConnection增加post请求相关等待事件机制 2. 等待机制的实现参考Demo-OneClientDemoHttpWaitHint
 
-*2023-06-24 服务端: 1.增加服务端报表单元，需要装FR如果没装FR同学，请屏B此单元 OneFastApi目录下 OneFastReportController 2.优化文件输出功能和HTML输出功能
+*2023-06-24 
+
+服务端: 1.增加服务端报表单元，需要装FR如果没装FR同学，请屏B此单元 OneFastApi目录下 OneFastReportController 2.优化文件输出功能和HTML输出功能
 
 客户端: 1.增加控件 TOneServerFastReport设计服务端报表交互控件 2. 增加Demo-OneClientDemoFastApi.dproj 报表设计单元
 
-*2023-06-10 服务端: 1.增加调用业务层Controrl前置如果出现错误，自定义返回格式，参考Demo DemoWorkCustErrResult->\httpServer\Controller\Demo 客户端: 1.TOneDataSet增加RefreshSingle刷新单条数据功能 2.增加Demo-OneClientDemoRefreshSingle *2023-05-27 服务端: 1.修正Token进入临界区的一些处理 2.修正FastApi相关功能的缺失及时间字段的输出和参数处理
+*2023-06-10 
+
+服务端: 1.增加调用业务层Controrl前置如果出现错误，自定义返回格式，参考Demo DemoWorkCustErrResult->\httpServer\Controller\Demo 客户端: 1.TOneDataSet增加RefreshSingle刷新单条数据功能 2.增加Demo-OneClientDemoRefreshSingle *2023-05-27 服务端: 1.修正Token进入临界区的一些处理 2.修正FastApi相关功能的缺失及时间字段的输出和参数处理
 
 客户端: 1.OneFastApi-Demo增加相关时间格式字段输出，记得补脚本
 
-*2023-05-17 --祝大家五一快乐,给大家一份大礼包吧 服务端: 1.账套增加 TOneZTManage.ExecScript 执行脚本用的,脚本是咋样就是咋样 2.一些优化及修正 客户端: 1.OneClient控件包增加 TOneDataSet.ExecScript 执行脚本用的 2.OneClient增加Demo OneClientDemoScript 脚本执行Demo 3.修正 TOneDataSet.ActiveDesign方法,只添加不存在的字段，且是添加在Fields不在是Fielddefs 4.增加 TOneDataSet.ActiveDesignOpen在设计时打开数据
+*2023-05-17 
 
-*2023-05-10 --祝大家五一快乐,给大家一份大礼包吧 服务端: 1.修正webSocket一些BUG 客户端: 2.修正webscoket一些BUG
+--祝大家五一快乐,给大家一份大礼包吧 服务端: 1.账套增加 TOneZTManage.ExecScript 执行脚本用的,脚本是咋样就是咋样 2.一些优化及修正 客户端: 1.OneClient控件包增加 TOneDataSet.ExecScript 执行脚本用的 2.OneClient增加Demo OneClientDemoScript 脚本执行Demo 3.修正 TOneDataSet.ActiveDesign方法,只添加不存在的字段，且是添加在Fields不在是Fielddefs 4.增加 TOneDataSet.ActiveDesignOpen在设计时打开数据
 
-*2023-05-07 --祝大家五一快乐,给大家一份大礼包吧 服务端: 1.增加WebSocket互相发送消息功能，及修正一些乱码问题 2.增加WebSocket对外相关controll接口 客户端: 1.为OneWebSocketClient.TOneWebSocketClient增加功能及修正 2.增加Demo OneClientDemoWebSocketChat 发送消息
+*2023-05-10 
 
-*2023-05-01 --祝大家五一快乐,给大家一份大礼包吧 服务端: 1.增加WebSocket服务,单元 OneWebSocketServer 2.修正OneZTManage获取驱动目录 3.主界面增加WebSocket相关配置 3.以及一些优化 客户端: 1.增加Demo OneClientFastApi 需要安装Dev 2.增加新的控件 OneWebSocketClient.TOneWebSocketClient 3.增加Demo OneClientDemoWebSocket
+--祝大家五一快乐,给大家一份大礼包吧 服务端: 1.修正webSocket一些BUG 客户端: 2.修正webscoket一些BUG
 
-*2023-04-28 服务端: 1.增加OneFastFile 附件功能机制,提供附件上传下载删除等功能 2.TOneZTManage.OpenDatas 以文件流下载产生的临时文件，10分钟后自动删除，保证硬盘的健康 3.修正Token释放问题,及一些优化 客户端: 1.OneClinet控件包增加目录OneFast记得把lib也要加进去,同时移动几个相关文件及单元名称oneCleintLsh改成oneCleintFastLsh 2.OneClient包增加控件TOneFastFile 附件功能 3.增加Demo OneClientDemoFastFile 附件功能展示 4.增加Demo OneClientFastApi 需要安装Dev,未完成相关功能下个版本就好了只是初步界面设计 5.以及一些功能优化
+*2023-05-07 
 
-*2023-04-23 服务端: 1.增加OneFastUpdate升级功能机制,提供升级管理功能 2.以及一些功能优化 客户端: 1.OneClient包增加控件TOneFastUpdate 提供升级功能 2.增加Demo OneClientDemoUpdate 如何自已升级自已 3.以及一些功能优化
+--祝大家五一快乐,给大家一份大礼包吧 服务端: 1.增加WebSocket互相发送消息功能，及修正一些乱码问题 2.增加WebSocket对外相关controll接口 客户端: 1.为OneWebSocketClient.TOneWebSocketClient增加功能及修正 2.增加Demo OneClientDemoWebSocketChat 发送消息
 
-*2023-04-17 服务端: 1.增加流水号配置相关功能,目录OneFastLsh 2.优化一些，代码自行比较 客户端: 1.OneClient包增加控件TOneFastLsh,专门获取流水号用的 2.增加Demo OneClientDemoLsh 获取流水号Demo
+*2023-05-01 
 
-*2023-04-13 服务端: 1.增加获取数据库结构方法 DataController.GetDBMetaInfo
+--祝大家五一快乐,给大家一份大礼包吧 服务端: 1.增加WebSocket服务,单元 OneWebSocketServer 2.修正OneZTManage获取驱动目录 3.主界面增加WebSocket相关配置 3.以及一些优化 客户端: 1.增加Demo OneClientFastApi 需要安装Dev 2.增加新的控件 OneWebSocketClient.TOneWebSocketClient 3.增加Demo OneClientDemoWebSocket
+
+*2023-04-28 
+
+服务端: 1.增加OneFastFile 附件功能机制,提供附件上传下载删除等功能 2.TOneZTManage.OpenDatas 以文件流下载产生的临时文件，10分钟后自动删除，保证硬盘的健康 3.修正Token释放问题,及一些优化 客户端: 1.OneClinet控件包增加目录OneFast记得把lib也要加进去,同时移动几个相关文件及单元名称oneCleintLsh改成oneCleintFastLsh 2.OneClient包增加控件TOneFastFile 附件功能 3.增加Demo OneClientDemoFastFile 附件功能展示 4.增加Demo OneClientFastApi 需要安装Dev,未完成相关功能下个版本就好了只是初步界面设计 5.以及一些功能优化
+
+*2023-04-23 
+
+服务端: 1.增加OneFastUpdate升级功能机制,提供升级管理功能 2.以及一些功能优化 客户端: 1.OneClient包增加控件TOneFastUpdate 提供升级功能 2.增加Demo OneClientDemoUpdate 如何自已升级自已 3.以及一些功能优化
+
+*2023-04-17 
+
+服务端: 1.增加流水号配置相关功能,目录OneFastLsh 2.优化一些，代码自行比较 客户端: 1.OneClient包增加控件TOneFastLsh,专门获取流水号用的 2.增加Demo OneClientDemoLsh 获取流水号Demo
+
+*2023-04-13 
+
+服务端: 1.增加获取数据库结构方法 DataController.GetDBMetaInfo
 
 客户端: 1.OneClient包OneClientDataSet.TOneDataSet.GetDBMetaInfo增加获取数据库结构方法 2.增加Demo OneClientDemoMetaInfo.dproj 获取数据库相关结构方法 3.增加Demo OneClientDemoSQLToClass.dproj 跟据SQL打开数据,把数据结构转化成D的类
 4.修正OneClientUUID获取GetUUID倒序问题
