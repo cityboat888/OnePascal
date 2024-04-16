@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.070,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.474,D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\frmDemoHttpWaitHint.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.280,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.997,=D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\Unit8.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.474,D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\frmDemoHttpWaitHint.dfm=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit8.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.609,D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\frmWait.dfm=D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\Unit8.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.609,D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\frmWait.pas=D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\Unit8.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.288,D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\OneClientDemoHttpWaitHint.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.284,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.522,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

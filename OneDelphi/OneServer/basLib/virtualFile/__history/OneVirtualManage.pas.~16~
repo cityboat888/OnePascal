@@ -1,0 +1,25 @@
+﻿unit OneVirtualManage;
+
+interface
+
+type
+  TVirtualSet = class;
+
+  TVirtualSet = class
+  private
+    FVirtualCode: string;
+    FVirtualCaption: string;
+    FPyhPath: string;
+    FIsEnable: boolean;
+    FIsWeb: boolean;
+  public
+    property VirtualCode: string read FVirtualCode write FVirtualCode;
+    property VirtualCaption: string read FVirtualCaption write FVirtualCaption;
+    property PyhPath: string read FPyhPath write FPyhPath;
+    property IsEnable: boolean read FIsEnable write FIsEnable;
+    property IsEnable: boolean read FIsEnable write FIsEnable;
+  end;
+
+implementation
+
+end.

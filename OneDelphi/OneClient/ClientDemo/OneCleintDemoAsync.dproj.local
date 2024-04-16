@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.729,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit5.pas=D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\frmDemoOpenAsync.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.102,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\OneCleintDemoAsync.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.729,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit5.dfm=D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\frmDemoOpenAsync.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.656,D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\frmDemoOpenAsync.dfm=D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\frmDemoAsync.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

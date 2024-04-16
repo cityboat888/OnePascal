@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.284,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.041,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\frmDemoDataRefreshSingle.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.173,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\OneClientDemoRefreshSingle.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.041,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\devTool\delphi\project\OneDelphi\OneClient\ClientDemo\frmDemoDataRefreshSingle.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.986,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.070,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,114 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+			"^vue-file-(.*)": "@dcloudio/path/to/vue-file-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/demo/demoList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/demo/demoPageList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/demo/demoForm",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/demo/demoFile",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/demo/demoScan",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/demo/billsend/demoSendReciveList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/demo/billsend/demoSendReciveEdit",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/demo/billsend/demoSendRecivePick",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/demo/billsend/demoBillSendList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/demo/billsend/demoBillSendEdit",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages/demo/jxc",
+			"pages": [
+				{
+					"path": "demoGoodsList",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "demoGoodsEdit",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "demoGoodsPick",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

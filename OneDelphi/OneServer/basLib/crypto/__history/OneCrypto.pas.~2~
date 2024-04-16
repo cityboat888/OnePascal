@@ -1,0 +1,10 @@
+unit OneCrypto;
+
+interface
+
+uses System.Hash, System.Types, System.StrUtils, System.SysUtils,
+  System.Classes;
+
+implementation
+
+end.

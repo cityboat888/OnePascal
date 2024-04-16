@@ -1,0 +1,10 @@
+unit OneGUID;
+
+interface
+function GetGUID32():string;
+implementation
+function GetGUID32():string;
+begin
+
+end;
+end.

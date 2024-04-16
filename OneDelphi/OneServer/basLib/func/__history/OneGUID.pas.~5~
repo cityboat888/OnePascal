@@ -1,0 +1,12 @@
+unit OneGUID;
+
+interface
+function GetGUID32():string;
+implementation
+function GetGUID32():string;
+var
+  ii: TGUID;
+begin
+
+end;
+end.
