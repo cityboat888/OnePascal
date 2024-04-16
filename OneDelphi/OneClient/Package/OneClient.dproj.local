@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.139,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Package1.dproj=D:\devTool\delphi\project\OneDelphi\OneClient\OneClient.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.412,D:\devTool\delphi\project\OneDelphi\OneClient\Package\OneClient.dproj=D:\devTool\delphi\project\OneDelphi\OneClient\OneClient.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.066,D:\devTool\delphi\project\OneDelphi\OneClient\Package\OneClientLsh.pas=D:\devTool\delphi\project\OneDelphi\OneClient\Package\OneFast\OneClientLsh.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="baseLib"/>
+    <File Path="baseLib\OneClientDataInfo.pas"/>
+    <File Path="baseLib\OneCrypto.pas"/>
+    <File Path="baseLib\OneFileHelper.pas"/>
+    <File Path="baseLib\OneFunc.pas"/>
+    <File Path="baseLib\OneILog.pas"/>
+    <File Path="baseLib\OneLog.pas"/>
+    <File Path="baseLib\OneSQLCrypto.pas"/>
+    <File Path="baseLib\OneStreamString.pas"/>
+    <File Path="baseLib\OneThread.pas"/>
+    <File Path="NeonSerialization"/>
+    <File Path="NeonSerialization\Neon.Core.Attributes.pas"/>
+    <File Path="NeonSerialization\Neon.Core.DynamicTypes.pas"/>
+    <File Path="NeonSerialization\Neon.Core.Nullables.pas"/>
+    <File Path="NeonSerialization\Neon.Core.Persistence.JSON.pas"/>
+    <File Path="NeonSerialization\Neon.Core.Persistence.JSON.Schema.pas"/>
+    <File Path="NeonSerialization\Neon.Core.Persistence.pas"/>
+    <File Path="NeonSerialization\Neon.Core.Serializers.DB.pas"/>
+    <File Path="NeonSerialization\Neon.Core.Serializers.Nullables.pas"/>
+    <File Path="NeonSerialization\Neon.Core.Serializers.RTL.pas"/>
+    <File Path="NeonSerialization\Neon.Core.TypeInfo.pas"/>
+    <File Path="NeonSerialization\Neon.Core.Types.pas"/>
+    <File Path="NeonSerialization\Neon.Core.Utils.pas"/>
+    <File Path="NeonSerialization\OneNeonHelper.pas"/>
+    <File Path="OneFast"/>
+    <File Path="OneFast\OneClientFastFile.pas"/>
+    <File Path="OneFast\OneClientFastLsh.pas"/>
+    <File Path="OneFast\OneClientFastReport.pas"/>
+    <File Path="OneFast\OneClientFastUpdate.pas"/>
+    <File Path="websocket"/>
+    <File Path="websocket\OneWebSocketClient.pas"/>
+    <File Path="OneClientConnect.pas"/>
+    <File Path="OneClientConst.pas"/>
+    <File Path="OneClientDataSet.pas"/>
+    <File Path="OneClientHelper.pas"/>
+    <File Path="OneClientRegister.pas"/>
+    <File Path="OneClientResult.pas"/>
+    <File Path="OneClientUUID.pas"/>
+    <File Path="OneClientVirtualFile.pas"/>
+    <File Path="dbrtl.dcp"/>
+    <File Path="designIde.dcp"/>
+    <File Path="FireDAC.dcp"/>
+    <File Path="FireDACCommon.dcp"/>
+    <File Path="FireDACCommonDriver.dcp"/>
+    <File Path="IndyCore.dcp"/>
+    <File Path="IndyProtocols.dcp"/>
+    <File Path="IndySystem.dcp"/>
+    <File Path="RESTComponents.dcp"/>
+    <File Path="soaprtl.dcp"/>
+  </ProjectSortOrder>
+</BorlandProject>

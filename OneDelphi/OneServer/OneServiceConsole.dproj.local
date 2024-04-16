@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/03/26 10:54:17.000.247,D:\devTool\delphi\project\OneDelphi\OneServer\OneServiceConsole.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/04/12 11:03:10.000.081,=D:\devTool\delphi\project\OneDelphi\OneServer\basLib\uuid\Core\uSnowWorkerM2.pas</Transaction>
+    <Transaction>2023/04/12 11:03:30.000.942,=D:\devTool\delphi\project\OneDelphi\OneServer\OneFastWeiXin\WeixinAdminController.pas</Transaction>
+  </Transactions>
+</BorlandProject>

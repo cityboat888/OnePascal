@@ -1,0 +1,7 @@
+unit OneDateTimeHelper;
+
+interface
+procedure SetDataTimeFormatSettings;
+implementation
+
+end.

@@ -1,0 +1,21 @@
+﻿unit OneVirtualManage;
+
+interface
+
+type
+  TVirtualSet = class;
+
+  TVirtualSet = class
+  private
+    FVirtualCode:string;
+    FVirtualCaption:string;
+    FPyhPath:string;
+    FIsEnable:boolean;
+    FIsWeb:boolean;
+  public
+    property FVirtualCode:string read FVirtualCode write FVirtualCode;
+  end;
+
+implementation
+
+end.
